@@ -10,6 +10,7 @@ if ('serviceWorker' in navigator) {
         });
     });
   }
+  return
   document.addEventListener("DOMContentLoaded", function() {
     // 1. 获取所有需要懒加载的图片
     const lazyImages = document.querySelectorAll('img.lazy');
