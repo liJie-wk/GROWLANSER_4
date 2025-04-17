@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100%;
+    max-width: 80vw;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #87CEEB;
+}
+
+td a {
+    text-decoration: none;
+    color: #000000;
+}
+
+td a:hover {
+    color: #6495ED;
+}
+
+td img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    td {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        font-size: 12px;
+    }
+
+    td {
+        padding: 3px;
+    }
+}
