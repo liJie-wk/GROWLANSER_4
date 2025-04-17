@@ -1,60 +1,70 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 blockquote {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 table {
-    width: 100%;
-    max-width: 80vw;
-    border-collapse: collapse;
-    margin: 10px 0;
+  max-width: 80vw;
+  border-collapse: collapse;
+  margin: 10px 0;
 }
 
 td {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #87CEEB;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #87ceeb;
 }
 
 td a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 td a:hover {
-    color: #6495ED;
+  color: #6495ed;
 }
 
 td img {
-    max-width: 100%;
-    height: auto;
+  width: 60%;
+
+  height: auto;
 }
-
+img.lazy {
+  width: 40px;
+}
 @media (max-width: 768px) {
-    table {
-        font-size: 14px;
-    }
+  table {
+    font-size: 14px;
+    max-width: 100vw;
+  }
 
-    td {
-        padding: 5px;
-    }
+  td {
+    padding: 5px;
+  }
+  td img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    table {
-        font-size: 12px;
-    }
+  table {
+    font-size: 12px;
+    max-width: 100vw;
+  }
 
-    td {
-        padding: 3px;
-    }
+  td {
+    padding: 3px;
+  }
+  td img {
+    width: 100%;
+  }
 }
